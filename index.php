@@ -1,9 +1,5 @@
 <?php include("controller.php"); 
 
-require_once './vendor/autoload.php';
-
-
-use Kreait\Firebase\Factory;
 
 ?>
 <!doctype html>
