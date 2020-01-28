@@ -305,7 +305,7 @@
 
                     <br>
                     <br>
-                    <a href="#"><button type="submit" class="btn1 btn" name="button1" id="login_btn">
+                    <a href="trial.php"><button type="button" class="btn1 btn" name="button1" id="login_btn">
                         Login
                     </button></a></form>
                     <a href="register.php"><button type="submit" class="btn2 btn" name="button2" id="reg_btn">
