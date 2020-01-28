@@ -1,0 +1,309 @@
+
+#sidebar-wrapper {
+   z-index: 1;
+   position: absolute;
+   width: 350px;
+   height: 100%;
+   overflow-y: hidden;
+   background:  #2C3E50;
+   opacity: 1; font-family:"TW Cen MT";
+   border: 2px solid;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+ overflow-x: hidden;
+
+}
+
+#page-content-wrapper{
+       width:100%;
+       position: absolute; font-family:"TW Cen MT";
+
+}
+
+
+#wrapper.menuDisplayed #sidebar-wrapper{
+  width: 350px; font-family:"TW Cen MT";
+  
+}
+
+#wrapper.menuDisplayed #page-content-wrapper{
+  padding-left: 270px; font-family:"TW Cen MT";
+}
+
+#wrapper #page-content-wrapper{
+  padding-left: 270px; font-family:"TW Cen MT";
+}
+
+.sidebar-nav {
+ padding: 0;
+ list-style: none; font-family:"TW Cen MT";
+
+}
+
+.sidebar-nav li{
+   text-indent: 20px;
+   line-height: 70px; font-family:"TW Cen MT";
+   
+}
+
+.sidebar-nav li a{
+     display: block;
+     text-decoration: none;
+     color: #ddd; font-family:"TW Cen MT";
+     font-size: 20px; 
+}
+
+.sidebar-nav li a:hover{
+       background: #16A085; font-family:"TW Cen MT";
+}
+
+.burgerbtnsize {
+     height: 85px; font-family:"TW Cen MT";
+     width: 65px;
+}
+
+.divhollowed {
+    background-color: black; font-family:"TW Cen MT";
+}
+
+.bgimage {
+   background-image: url("newbg.jpg"); font-family:"TW Cen MT";
+
+}
+
+.header1 {
+   width: 1800px;
+   height: 12rem;
+   background-size: 100% 12rem; font-family:"TW Cen MT";
+   background-repeat: no-repeat;
+   background-image: url("u.jpg");
+}
+
+.border1 {
+  background-color: darkgrey;
+  width: 1500px; font-family:"TW Cen MT";
+  height: 7px;
+}
+
+.subbg {
+  background-color: white;
+  width: 50%;
+  height: 65rem;
+  font-family:"TW Cen MT";
+}
+
+.font1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family:"TW Cen MT";
+}
+
+.log {
+  width: 140px;
+  height: 140px;
+  font-family:"TW Cen MT";
+}
+.br1 {
+  width: 960px;
+  height: 135px;
+  font-family:"TW Cen MT";
+}
+
+.div1 {
+  width: 100%;
+  height: 2rem;
+  font-family:"TW Cen MT";
+}
+
+.div2 {
+  width: 100%;
+  height: 5px;
+  font-family:"TW Cen MT";
+}
+.log2 {
+  width: 135px;
+  height: 135px;
+  font-family:"TW Cen MT";
+}
+.srms {
+  width: 630px;
+  height: 440px;
+  font-family:"TW Cen MT";
+}
+
+.box {
+  background-color: lightgray;
+  width: 40rem;
+  height: 120%;
+  border-radius: 4%;
+  font-family:"TW Cen MT";
+}
+.box2 {
+  background-color: rgb(209, 47, 47);
+  width: 80%;
+  height: 8rem;
+  border-radius: 4%;
+  font-family:"TW Cen MT";
+}
+
+.lblfont{
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  font-family:"TW Cen MT";
+}
+
+.lblfont2 {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  font-family:"TW Cen MT";
+}
+
+.divc {
+  width: 50%;
+}
+
+.tbl {
+  width:"6rem";
+}
+
+.lblfont3 {
+  font-size: 10px;
+  color: blue;
+
+}
+
+.btn1 {
+  width: 35%;
+  background-color: rgb(94, 94, 247);
+  height: 8%;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  font-family:"TW Cen MT";
+}
+
+.button {
+  border: none;
+  display: inline-block;
+  font-family:"TW Cen MT";
+}
+
+.btn {
+  border: none;
+  opacity: 1;
+  transition: 0.3s;
+  font-family:"TW Cen MT";
+}
+
+.btn:hover {opacity: 0.6}
+
+.dh {
+   height: 100%;
+}
+
+.toggler {
+   height: 52px;
+   width: 52px;
+   background-color: #2C3E50;
+   border: 2px solid ;
+}
+
+.avatars {
+   width: 4rem;
+   height: 4rem;
+}
+
+.namef {
+   color: #ddd;
+   font-size: 23px;
+}
+
+.headimg {
+    width: 1500px;
+    height: 10rem;
+
+}
+
+.headimg2 {
+   width: 1000px;
+   height: 5rem;
+
+}
+.headimg3 {
+   width: 1250px;
+ position:absolute;
+ left: 500px;
+ top: 40px;
+
+}
+.headimg4 {
+  
+ position:absolute;
+ left: 400px;
+ top: 15px;
+
+}
+.headimg5 {
+   position:absolute;
+   left: 1750px;
+   top: 30px;
+
+}
+.headimg6 {
+  position:absolute;
+  z-index:-99;
+  left:-600px;
+  top:-100px;
+  width:120%;
+
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  font-family:"TW Cen MT";
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: none;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  font-family:"TW Cen MT";
+}
+
+.center {
+  text-align: center;
+  
+}
+body{
+  background-color: lightgray ;
+  z-index:-199
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
