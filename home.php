@@ -7,7 +7,7 @@
     }
     $account = $_SESSION["acType"];
     require_once("dbConfig.php");
-    $sql = "SELECT * FROM accounttest ORDER BY userId DESC";
+    $sql = "SELECT * FROM heroku_524f94403e88c36 ORDER BY userId DESC";
     $stmt = mysqli_query($db,$sql);
 ?>
 <!DOCTYPE html>

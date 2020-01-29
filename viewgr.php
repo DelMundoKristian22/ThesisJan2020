@@ -103,7 +103,7 @@ h3{
 
  <?php
 
-$db = mysqli_connect('localhost', 'root', '', 'accounttest');
+$db = mysqli_connect('us-cdbr-iron-east-04.cleardb.net', 'b12a8f726f9b09', 'e6650e74', 'heroku_524f94403e88c36');
 $sid = $_SESSION['gid'];
 $query = "SELECT * FROM 2013cur WHERE SID='$sid';";
 $results = mysqli_query($db, $query);
